@@ -63,3 +63,25 @@ table {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Mantendo a sombra no texto */
   color: white;
  }
+ .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+
+ .content {
+  text-align: left;
+  max-width: 50%;
+  padding: 0 20px;
+ }
+
+  .image{
+  max-width: 50%;
+  text-align: right;
+  padding: 0 20px;
+  overflow: hidden;
+  width: 500px;
+  height: 500px;
+ }
+
