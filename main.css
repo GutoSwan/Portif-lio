@@ -85,3 +85,28 @@ table {
   height: 500px;
  }
 
+ .container-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+
+ .content-about{
+  text-align: left;
+  max-width: 50%;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.image-about{
+  max-width: 100%;
+  text-align: right;
+  padding: 0 20px;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  left: 100px;
+ }
