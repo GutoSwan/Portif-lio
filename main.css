@@ -16,8 +16,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -45,10 +43,23 @@ table {
 }
  /* fonte */
 
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;1,300&display=swap');
-
   body {
-    background: linear-gradient(to bottom, #4CC5F8, #84F5DE);
     height: 100%;
 }
-  
+
+.principal {
+  background: linear-gradient(90deg, #84f5de 50%, #4cc5f8 100%);
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;  
+}
+.principal-tittle {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Mantendo a sombra no texto */
+  color: white;
+ }
