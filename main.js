@@ -1,21 +1,13 @@
-// Add the "fade-in" class to sections when they come into view
-const sections = document.querySelectorAll("section");
+  document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
 
-const isInViewport = (element) => {
-    const rect = element.getBoundingClientRect();
-    return (
-        rect.top >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-    );
-};
-
-const applyAnimations = () => {
-    sections.forEach((section) => {
-        if (isInViewport(section)) {
-            section.classList.add("fade-in");
-        }
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        window.scrollTo({
+          top: target.offsetTop,
+          behavior: 'smooth'
+        });
+      }
     });
-};
-
-window.addEventListener("scroll", applyAnimations);
-window.addEventListener("load", applyAnimations);
+  });
