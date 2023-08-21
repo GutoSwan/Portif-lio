@@ -63,7 +63,7 @@ table {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Mantendo a sombra no texto */
   color: white;
  }
- .container{
+ .container-bd{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,3 +163,4 @@ table {
   justify-content: center;
   align-items: center;
  }
+
