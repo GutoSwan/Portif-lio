@@ -75,9 +75,14 @@ hr {
   width: 90%;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   display: flex;
 }
 
 .meu-hr{
   display: flex; align-items: center; justify-content: center;
 }
+=======
+ }
+
+>>>>>>> cae65432dca5ad0b8409602673c52724b02abaca
